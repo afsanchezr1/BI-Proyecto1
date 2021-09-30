@@ -1,0 +1,21 @@
+Collecting textsearch
+  Using cached textsearch-0.0.21-py2.py3-none-any.whl (7.5 kB)
+  Using cached textsearch-0.0.17-py2.py3-none-any.whl (7.5 kB)
+Collecting Unidecode
+  Downloading Unidecode-1.3.2-py3-none-any.whl (235 kB)
+Collecting textsearch
+  Using cached textsearch-0.0.14-py2.py3-none-any.whl (7.5 kB)
+  Using cached textsearch-0.0.13-py2.py3-none-any.whl (7.5 kB)
+  Using cached textsearch-0.0.11-py2.py3-none-any.whl (7.5 kB)
+
+The conflict is caused by:
+    textsearch 0.0.21 depends on pyahocorasick
+    textsearch 0.0.17 depends on pyahocorasick
+    textsearch 0.0.14 depends on pyahocorasick
+    textsearch 0.0.13 depends on pyahocorasick
+    textsearch 0.0.11 depends on pyahocorasick
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip attempt to solve the dependency conflict
+
